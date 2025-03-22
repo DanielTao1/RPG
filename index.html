@@ -1264,7 +1264,7 @@ function toggleAutoCombine() {
 		btn.innerHTML = '🤖自动合成';
 		showMessage("自动合成已停止");
 	} else {
-		autoCombineInterval = setInterval(autoCombine, 50); // 每0.5秒执行一次
+		autoCombineInterval = setInterval(autoCombine, 500); // 每0.5秒执行一次
 		btn.style.background = '#795548';
 		btn.innerHTML = '🛑停止自动';
 		showMessage("自动合成已启动（每0.5秒检测）");
